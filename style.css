@@ -1,0 +1,155 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body{
+    background-color: antiquewhite;
+    max-width: 1460px;
+    max-height: 100vh;
+}
+
+.header img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.header h1{
+    
+    position: relative;
+    top: 1px;
+    left: 10px;
+    padding: 10px;
+}
+
+.tapHeader{
+    overflow: hidden;
+    background-color:dimgrey ;
+}
+
+.tapHeader a{
+    color:white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.tapHeader a:hover{
+    background-color: darkblue;
+    color: gold;
+
+}
+
+.tapHeader a.active{
+    background-color: darkblue;
+    color: antiquewhite;
+}
+
+.tapHeader-right{
+    float: right;
+}
+
+.body img{
+    width:max-content ;
+    height:max-content;
+}
+
+
+h2{
+    text-align: center;
+    padding: 20px; 
+    background-color: aliceblue; 
+    font-family:monospace;
+    border-style: dashed;
+    margin: 5px 650px;
+    border-radius: 20px;
+    font-weight:bolder;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    padding: 1px;
+  }
+
+
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+  
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+
+.container {
+    border-radius: 5px;
+    background-color:gold;
+    padding: 20px;
+}
+
+
+.call{
+    box-sizing: content-box;  
+    width: auto;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid yellow;
+    background-color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
